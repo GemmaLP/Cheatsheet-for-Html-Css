@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<!--cheatsheet project-->
+<html>
+    <head>
+        <title>Cheastsheet Project</title>
+        <link href="styles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img>
+            <h1>GEMMALP'S CUSTOM CHEATSHEET</h1>
+        </header>
+
+
+        <main>
+            <h1 class="title">HTML & CSS</h1>
+            <p>A concise guide to help remember what I've learnt so far. On the HTML and CSS pages, you'll find easy to study cheatsheets with common elemnets, tags, structure, styling and more!</p>
+            <br>
+
+
+            <!--html table-->
+            <section class="html">
+            <h2>HTML</h2>
+            <p>A cheatsheet for HTML that I've learned so far. Structure, semantics, elements and more.</p>
+            <ul>
+                <li>Every hHtml document should begin with a document type declaration &lt;!DOCTYPE html&gt;</li>           <li>Comments should be written as &lt;--!I'm a comment--&gt;and will be hidden from browser display</li>
+                <li>Html code should be written with spacing indentation to nested elements to provide better readability</li>
+                <li>Html stands for Hyper Text Mark Up Language</li>
+                <li>Attributes are content added to the opening tag of an element. They are made up of 2 parts, the name and value</li>
+                <li>To link to a relative path use ./  eg: "./localfile.html"</li>
+                <li>To link to an absolute path, use the full URL "https://www.file.jpg"</li>
+                <li>Make sure to use Semantic Html to make your code accesible, easy to read and for SEO</li>
+            </ul>
+            <br>
+
+
+            <table>
+                <caption>HTML CHEATSHEET TABLE</caption>
+                <thead>
+                    <tr>
+                        <th class="nowrap" scope="col">COMMON ELEMENTS</th>
+                        <th scope="col">USAGE</th>
+                        <th class="nowrap" scope="col">REQUIRE CLOSING TAG?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&lt;html&gt;</td>
+                        <td>The root of an html document, added after the !Doctype declaration</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;head&gt;</td>
+                        <td>Contains metadata, links to stylesheet, title of page</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;title&gt;</td>
+                        <td>Title of the page, displayed in browser's title bar or tab</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;body&gt;</td>
+                        <td>The content of an html document, content inside is rendered on web browser</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;h1&gt;to&lt;h6&gt;</td>
+                        <td>Headings, ordered from highest h1 to lowest h6</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;p&gt;</td>
+                        <td>Paragraph</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;header&gt;</td>
+                        <td>Page header, eg title, image, can nest nav links</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;nav&gt;</td>
+                        <td>Navigational links</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;main&gt;</td>
+                        <td>Contains main content of the page</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;section&gt;</td>
+                        <td>Groups information together in a defined area</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;article&gt;</td>
+                        <td>Holds content that makes sense on it's own, e.g. blogs, recipe</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;aside&gt;</td>
+                        <td>Related to main content but not required to understand it</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;footer&gt;</td>
+                        <td>Contains copyright, contact info, etc</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;div&gt;</td>
+                        <td>A container for content</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;a&gt;</td>
+                        <td>Anchor tag, used to create hyperlinks with attribute href="location"</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;br&gt;</td>
+                        <td>Line break</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ul&gt;and&lt;ol&gt;</td>
+                        <td>Unordered and Ordered lists, contains &lt;li&gt; elements</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;img&gt;</td>
+                        <td>Embeds images in documents. Uses mandatory src attribute, eg. src="image.png"</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;video&gt;</td>
+                        <td>Embeds a media player for video playback using src attribute. Controls attribute will display controls. Content inside opening and closing tag is fallback text for unsupported browsers</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;audio&gt;and&lt;source&gt;</td>
+                        <td>Emebeds audio content using source element nested insdie with src attribute, recommended to add controls and type attibutes</td>
+                        <td>Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+            </section>
+            <br>
+            <br>
+
+
+            <!--Css table-->
+            <section class="css">
+                <h2>CSS</h2>
+                <p>A cheatsheet for Css that I've learned so far. Specifity, styles, tags, class and ID.</p>
+                <ul>
+                    <li>Css means Cascading Style Sheets</li>
+                    <li>It is possible to write Css code directly into Html using inline &lt;style tag&gt;</li>
+                    <li>You must link the Css file in the &lt;head&gt; of the Html document by using &lt;link href="styles.css" type="text/css" rel="stylesheet"&gt;</li>
+                    <li>A Css declartion consists of a property (E.g. Size, color) and a value (E.g. 18px, red)</li>
+                    <li>There are different ways to choose selectors: Tag; E.g p, h1, ul...Selects the corresponding element. Class name; E.g. .title ...Selects elements with the attribute class="title". ID; E.g. #school ...Selects the element with the attribute id="school"</li>
+                    <li>Specificity is the order by which the browser decides which Css styles will be displayed. ID's are the most specific, then Class, then Tags</li>
+                    <li>It is possible to require an Html element to have 2 or more Css selectors at the same time, E.g. h1 .special</li>
+                    <li>Css supports selecting nested elements, E.g. .mainlist li</li>
+                    <li>It's possible to add Css styles to multiple selectors at once, E.g. h1, .menu, p</li>
+                    <li>!important can be applied to specific attributes to override any style, no matter how specific</li>
+                </ul>
+                <br>
+                <table>
+                    <caption>CSS CHEATSHEET TABLE</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">PROPERTY</th>
+                            <th class="nowrap" scope="col">USAGE</th>
+                            <th class="nowrap" scope="col">EXAMPLE VALUES</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>color</td>
+                            <td>Sets the text color</td>
+                            <td>black, white, #0008B</td>
+                        </tr>
+                        <tr>
+                            <td>background-color</td>
+                            <td>Sets the background-color</td>
+                            <td>black, white, #0008B</td>
+                        </tr>
+                        <tr>
+                            <td>border</td>
+                            <td>Adds a border, can choose size, style & color</td>
+                            <td>2px solid black</td>
+                        </tr>
+                        <tr>
+                            <td>text-align</td>
+                            <td>Sets the text alignment</td>
+                            <td>center</td>
+                        </tr>
+                        <tr>
+                            <td>text-decoration</td>
+                            <td>adds decoration to text</td>
+                            <td>underline</td>
+                        </tr>
+                        <tr>
+                            <td>font-family</td>
+                            <td>Sets the text font</td>
+                            <td>tahoma, "Times new roman"</td>
+                        </tr>
+                        <tr>
+                            <td>font-size</td>
+                            <td>Sets the text size</td>
+                            <td>large, 20pt</td>
+                        </tr>
+                        <tr>
+                            <td>font-weight</td>
+                            <td>Sets the text weight</td>
+                            <td>bold</td>
+                        </tr>
+                        <tr>
+                            <td>opacity</td>
+                            <td>Sets the opacity</td>
+                            <td>0.6</td>
+                        </tr>
+                        <tr>
+                            <td>background-image</td>
+                            <td>Sets a background image</td>
+                            <td>url"https://www.image.jpg"</td>
+                        </tr>
+                       
+                    </tbody>
+                </table>
+                </section>
+        </main>
+        <footer>
+            <p>A GemmaLP Website</p>
+        </footer>
+    </body>
+</html>
